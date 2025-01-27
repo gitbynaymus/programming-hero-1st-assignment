@@ -29,6 +29,24 @@ nav .btn {
     outline: none;
     transition: background-color 0.3s, transform 0.3s;
 }
+.btn1{
+    background-color: #5490F5;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.btn2{
+    background-color: #09A15C;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.btn3{
+    background-color: #FFC239;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px;
+}
 .btn-explore{
     background-color: #006A50;
 }
@@ -59,4 +77,48 @@ nav .btn {
     margin: 80px;
     margin-top: 0px;
     margin-bottom: 40px;
+}
+.vision-title{
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.vision-text{
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.vision{
+    margin: 80px;
+}
+.vision-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+}
+.vision-card{
+    padding: 24px;
+    border-radius: 16px;  
+}
+.color1{
+    background-color: rgba(84, 144, 245,0.2);
+    /* opacity: 20%; */
+    
+}
+.color2{
+    background-color: #C6E4D6;
+}
+.color3{
+    background-color: #F7EBCF;
+}
+.vision-card-title {
+    opacity: 0.8;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.vision-card-text{
+    opacity: 0.7;
+    margin-bottom: 24px;
 }
