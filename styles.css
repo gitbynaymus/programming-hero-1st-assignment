@@ -1,0 +1,36 @@
+*{
+    font-family: "Fira Sans", serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .btn {
+    background-color: transparent;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 17px 34px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border-radius: none;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-explore{
+    background-color: #006A50;
+}
+.nav-heading {
+    font-size: 32px;
+}
+.font-color-1{
+    color: #0E0E0E;
+}
